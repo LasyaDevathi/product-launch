@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Launch Event</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="background-shapes">
+    <div class="circle small" style="top: 10%; left: 20%;"></div>
+    <div class="circle medium" style="top: 50%; left: 10%;"></div>
+    <div class="circle large" style="top: 80%; left: 70%;"></div>
+    <div class="circle small" style="top: 30%; left: 80%;"></div>
+  </div>
+  <div class="container">
+    <h1>Exciting Product Launch</h1>
+    <p id="countdown"></p>
+    <p class="event-details">Launching on: <span id="launch-date">December 31, 2024</span></p>
+    <a href="view.html" id="view-page-button" class="button">Product</a>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1"></script>
+    <form id="rsvp-form">
+      <input type="text" placeholder="Your Name" id="name" required>
+      <input type="email" placeholder="Your Email" id="email" required>
+      <button type="submit">RSVP</button>
+    </form>
+    <p id="rsvp-message"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
